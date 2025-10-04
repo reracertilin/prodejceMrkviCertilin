@@ -3,14 +3,16 @@ import java.time.LocalDate;
 /**
  * Atributy o prodejcích biomrkve
  */
-public class atributyProdejcu {
+public class Prodejce {
 
     private String jmeno = "Jméno"; //Jméno prodejce
     private LocalDate datumNarozeni = LocalDate.now(); //Datum narození prodejce
     private int smlouvy = 0; //Počet dosud sjednaných smluv
-    private double mrkve = 0; //Celkové množství prodané mrkve v tunách
+    private double mrkve = 0;//Celkové množství prodané mrkve v tunách
     private Boolean senior; //jestli je to seniorní prodejce
 
+
+    //dále jenom getters and setters
     public String getJmeno() {
         return jmeno;
     }
